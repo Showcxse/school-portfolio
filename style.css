@@ -177,6 +177,16 @@ header .info-text .scroll::before {
     font-size: 1.1rem;
 } 
 
+#work .work-cards .card .info a {
+    color: #fff;
+
+}
+
+#work .work-cards .card .info a:visited {
+    color: #fff;
+    
+}
+
 .scroll-top {
     display: none;
     position: fixed;
@@ -201,6 +211,8 @@ header .info-text .scroll::before {
 @media screen and (max-width: 720px) {
     header .info-text h1 {
         font-size: 4rem;
+        text-align: center;
+        align-items: center;
     }
 
     header .info-text h3 {
