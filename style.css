@@ -39,12 +39,12 @@ header .info-text {
 }
 
 header .info-text h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 500;
 }
 
 header .info-text h3 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
 }
 
 header .info-text .scroll {
@@ -122,6 +122,7 @@ header .info-text .scroll::before {
 #about .card img {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 2px;
 }
 
 #about .card .info {
